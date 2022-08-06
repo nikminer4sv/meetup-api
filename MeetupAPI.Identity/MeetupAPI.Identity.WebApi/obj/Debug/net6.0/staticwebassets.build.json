@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4BKptTaGTi1pvS6YmIShnqRwDoTr6ZYHu+TqZUX3Sqg=",
+  "Source": "MeetupAPI.Identity.WebApi",
+  "BasePath": "_content/MeetupAPI.Identity.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

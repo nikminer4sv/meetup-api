@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MeetupAPI.Identity.Application\MeetupAPI.Identity.Application.csproj" />
+      <ProjectReference Include="..\MeetupAPI.Identity.Persistence\MeetupAPI.Identity.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>

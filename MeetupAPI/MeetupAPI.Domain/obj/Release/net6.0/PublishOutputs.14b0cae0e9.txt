@@ -1,0 +1,3 @@
+/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI/MeetupAPI.Domain/bin/Release/net6.0/publish/MeetupAPI.Domain.dll
+/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI/MeetupAPI.Domain/bin/Release/net6.0/publish/MeetupAPI.Domain.deps.json
+/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI/MeetupAPI.Domain/bin/Release/net6.0/publish/MeetupAPI.Domain.pdb

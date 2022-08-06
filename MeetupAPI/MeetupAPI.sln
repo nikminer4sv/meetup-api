@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A349F9F4-9BD1-4485-A4C0-B894C6C5DAA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A160798F-51B6-4832-9662-74FE9E5DD598}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BEA818A0-2AF9-414D-921F-DEC915F76EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.Domain", "MeetupAPI.Domain\MeetupAPI.Domain.csproj", "{0C64378B-C66D-45DD-BF6F-FC1F98500B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.Application", "MeetupAPI.Application\MeetupAPI.Application.csproj", "{7890B06D-60B8-4292-BC50-80A0EA1D5D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{3187C405-DC13-49A3-8031-8809B7E1783D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.WebApi", "MeetupAPI.WebApi\MeetupAPI.WebApi.csproj", "{AE38444C-DFEC-447A-AFCC-635BD110F320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C64378B-C66D-45DD-BF6F-FC1F98500B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C64378B-C66D-45DD-BF6F-FC1F98500B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C64378B-C66D-45DD-BF6F-FC1F98500B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C64378B-C66D-45DD-BF6F-FC1F98500B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7890B06D-60B8-4292-BC50-80A0EA1D5D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7890B06D-60B8-4292-BC50-80A0EA1D5D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7890B06D-60B8-4292-BC50-80A0EA1D5D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7890B06D-60B8-4292-BC50-80A0EA1D5D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3187C405-DC13-49A3-8031-8809B7E1783D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3187C405-DC13-49A3-8031-8809B7E1783D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3187C405-DC13-49A3-8031-8809B7E1783D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3187C405-DC13-49A3-8031-8809B7E1783D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE38444C-DFEC-447A-AFCC-635BD110F320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE38444C-DFEC-447A-AFCC-635BD110F320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE38444C-DFEC-447A-AFCC-635BD110F320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE38444C-DFEC-447A-AFCC-635BD110F320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C64378B-C66D-45DD-BF6F-FC1F98500B2B} = {A349F9F4-9BD1-4485-A4C0-B894C6C5DAA7}
+		{7890B06D-60B8-4292-BC50-80A0EA1D5D85} = {A349F9F4-9BD1-4485-A4C0-B894C6C5DAA7}
+		{3187C405-DC13-49A3-8031-8809B7E1783D} = {A160798F-51B6-4832-9662-74FE9E5DD598}
+		{AE38444C-DFEC-447A-AFCC-635BD110F320} = {BEA818A0-2AF9-414D-921F-DEC915F76EDB}
+	EndGlobalSection
+EndGlobal

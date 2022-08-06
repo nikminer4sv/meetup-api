@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DA503F11-06B8-4D8A-A771-541915D78579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.Identity.Domain", "MeetupAPI.Identity.Domain\MeetupAPI.Identity.Domain.csproj", "{C8120636-9186-4CFC-88ED-31E85BDAC758}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{21B56420-0C70-40F1-B91B-0E4A91B4B416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.Identity.Persistence", "MeetupAPI.Identity.Persistence\MeetupAPI.Identity.Persistence.csproj", "{055F6E30-BCEF-4ADD-8C11-6CC0F37C400A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F9534A41-CE8B-4F68-B88C-F907C5DBCCFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.Identity.WebApi", "MeetupAPI.Identity.WebApi\MeetupAPI.Identity.WebApi.csproj", "{DC61DAC8-602D-40B1-A9E2-261E6F75F2A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8120636-9186-4CFC-88ED-31E85BDAC758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8120636-9186-4CFC-88ED-31E85BDAC758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8120636-9186-4CFC-88ED-31E85BDAC758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8120636-9186-4CFC-88ED-31E85BDAC758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055F6E30-BCEF-4ADD-8C11-6CC0F37C400A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055F6E30-BCEF-4ADD-8C11-6CC0F37C400A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055F6E30-BCEF-4ADD-8C11-6CC0F37C400A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055F6E30-BCEF-4ADD-8C11-6CC0F37C400A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC61DAC8-602D-40B1-A9E2-261E6F75F2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC61DAC8-602D-40B1-A9E2-261E6F75F2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC61DAC8-602D-40B1-A9E2-261E6F75F2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC61DAC8-602D-40B1-A9E2-261E6F75F2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8120636-9186-4CFC-88ED-31E85BDAC758} = {DA503F11-06B8-4D8A-A771-541915D78579}
+		{055F6E30-BCEF-4ADD-8C11-6CC0F37C400A} = {21B56420-0C70-40F1-B91B-0E4A91B4B416}
+		{DC61DAC8-602D-40B1-A9E2-261E6F75F2A2} = {F9534A41-CE8B-4F68-B88C-F907C5DBCCFB}
+	EndGlobalSection
+EndGlobal

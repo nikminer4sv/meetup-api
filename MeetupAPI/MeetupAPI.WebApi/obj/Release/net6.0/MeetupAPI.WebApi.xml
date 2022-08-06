@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MeetupAPI.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:MeetupAPI.WebApi.Controllers.MeetupController.GetAll">
+            <summary>
+            Get all meetups
+            </summary>
+            <returns>Returns MeetupListViewModel</returns>
+            <response code="200">Success</response>
+            <response code="401">User is unauthorized</response>
+        </member>
+        <member name="M:MeetupAPI.WebApi.Controllers.MeetupController.GetMeetupDetails(System.Guid)">
+            <summary>
+            Get meetup by id
+            </summary>
+            <param name="id">Meetup id (guid)</param>
+            <returns>Returns MeetupDetailsViewModel</returns>
+            <response code="200">Success</response>
+            <response code="401">User is unauthorized</response>
+        </member>
+        <member name="M:MeetupAPI.WebApi.Controllers.MeetupController.CreateMeetup(MeetupAPI.WebApi.Models.CreateMeetupDto)">
+            <summary>
+            Create meetup
+            </summary>
+            <param name="createMeetupDto">CreateMeetupDto object</param>
+            <returns>Returns id (guid)</returns>
+            <response code="201">Success</response>
+            <response code="401">User is unauthorized</response>
+        </member>
+        <member name="M:MeetupAPI.WebApi.Controllers.MeetupController.DeleteMeetup(System.Guid)">
+            <summary>
+            Delete meetup by id
+            </summary>
+            <param name="id">Id of the meetup (guid)</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="401">User is unauthorized</response>
+        </member>
+        <member name="M:MeetupAPI.WebApi.Controllers.MeetupController.UpdateMeetup(MeetupAPI.WebApi.Models.UpdateMeetupDto)">
+            <summary>
+            Update meetup by id
+            </summary>
+            <param name="id">Id of the meetup (guid)</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="401">User is unauthorized</response>
+        </member>
+    </members>
+</doc>
