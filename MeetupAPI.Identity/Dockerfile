@@ -1,0 +1,24 @@
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 7091
+EXPOSE 8000
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /src
+COPY *.sln ./
+COPY ["./MeetupAPI.Identity/MeetupAPI.Identity.csproj", "MeetupAPI.Identity/"]
+COPY ["./MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj", "MeetupAPI.Identity.Domain/"]
+COPY ["./MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj", "MeetupAPI.Identity.Persistence/"]
+COPY ["./MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj", "MeetupAPI.Identity.WebApi/"]
+RUN dotnet restore "MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj"
+COPY . .
+WORKDIR "/src/MeetupAPI.Identity.WebApi"
+RUN dotnet build "MeetupAPI.Identity.WebApi.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "MeetupAPI.Identity.WebApi.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "MeetupAPI.Identity.WebApi.dll"]

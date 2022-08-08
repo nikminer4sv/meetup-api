@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  identity:
+      image: auth
+      build:
+        context: .
+        dockerfile: ./Dockerfile
+      ports:
+        - "7091:7091"
+        - "8000:8000"
+      environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+        - ASPNETCORE_URLS=https://+:7091;http://+:8000
+        - ASPNETCORE_HTTPS_PORT=7091
+        - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+        - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      volumes:
+        - ~/.vsdbg:/remote_debugger:rw
+        - ~/.aspnet/https:/https:ro
