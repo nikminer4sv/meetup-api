@@ -132,7 +132,7 @@ public class AuthController : Controller
             expires: DateTime.Now.AddHours(3),
             claims: authClaims,
             audience: "MeetupWebAPI",
-            issuer: "https://localhost:7206",
+            issuer: "https://auth:7091",
             signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
         );
 

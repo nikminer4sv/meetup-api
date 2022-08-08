@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {}
+    "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {}
   },
   "projects": {
-    "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {
+    "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj",
+        "projectUniqueName": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj",
         "projectName": "MeetupAPI.Identity.Domain",
-        "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj",
+        "projectPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj",
         "packagesPath": "/Users/nikminer4sv/.nuget/packages/",
-        "outputPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/obj/",
+        "outputPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nikminer4sv/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3dV9U5irE9nZ1ZPj5viTvUJ1I2kwZN2R0oa+z6sHjB7K1xCZyev3kF6BgawBiYLWfEBN/zJYYnEwwkqUO4q/tQ==",
+  "dgSpecHash": "OqnoW4J60ysjyOhzran+Mdd9TvIzdgBv+OH5x3DfrdUixOL3mhN/oNqG+pNPAHXC2V2HedE42XlVKX0BRAHCkg==",
   "success": true,
-  "projectFilePath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
+  "projectFilePath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
   "expectedPackageFiles": [
     "/Users/nikminer4sv/.nuget/packages/identitymodel/4.4.0/identitymodel.4.4.0.nupkg.sha512",
     "/Users/nikminer4sv/.nuget/packages/identityserver4/4.1.2/identityserver4.4.1.2.nupkg.sha512",

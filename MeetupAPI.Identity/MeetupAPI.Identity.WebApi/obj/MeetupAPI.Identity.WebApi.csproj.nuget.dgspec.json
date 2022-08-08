@@ -1,73 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj": {}
+    "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj": {}
   },
   "projects": {
-    "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj": {
+    "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj",
-        "projectName": "MeetupAPI.Identity.Application",
-        "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj",
-        "packagesPath": "/Users/nikminer4sv/.nuget/packages/",
-        "outputPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/nikminer4sv/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {
-                "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj",
+        "projectUniqueName": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj",
         "projectName": "MeetupAPI.Identity.Domain",
-        "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj",
+        "projectPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj",
         "packagesPath": "/Users/nikminer4sv/.nuget/packages/",
-        "outputPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/obj/",
+        "outputPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nikminer4sv/.nuget/NuGet/NuGet.Config"
@@ -118,14 +62,14 @@
         }
       }
     },
-    "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj": {
+    "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
+        "projectUniqueName": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
         "projectName": "MeetupAPI.Identity.Persistence",
-        "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
+        "projectPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
         "packagesPath": "/Users/nikminer4sv/.nuget/packages/",
-        "outputPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/obj/",
+        "outputPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nikminer4sv/.nuget/NuGet/NuGet.Config"
@@ -140,8 +84,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj": {
-                "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj"
+              "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {
+                "projectPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj"
               }
             }
           }
@@ -192,14 +136,14 @@
         }
       }
     },
-    "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj": {
+    "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj",
+        "projectUniqueName": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj",
         "projectName": "MeetupAPI.Identity.WebApi",
-        "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj",
+        "projectPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/MeetupAPI.Identity.WebApi.csproj",
         "packagesPath": "/Users/nikminer4sv/.nuget/packages/",
-        "outputPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/obj/",
+        "outputPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nikminer4sv/.nuget/NuGet/NuGet.Config"
@@ -214,14 +158,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj": {
-                "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj"
+              "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {
+                "projectPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj"
               },
-              "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {
-                "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj"
-              },
-              "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj": {
-                "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj"
+              "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj": {
+                "projectPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj"
               }
             }
           }

@@ -947,19 +947,6 @@
           }
         }
       },
-      "MeetupAPI.Identity.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "MeetupAPI.Identity.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MeetupAPI.Identity.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MeetupAPI.Identity.Application.dll": {}
-        }
-      },
       "MeetupAPI.Identity.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2595,11 +2582,6 @@
         "version.txt"
       ]
     },
-    "MeetupAPI.Identity.Application/1.0.0": {
-      "type": "project",
-      "path": "../MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj",
-      "msbuildProject": "../MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj"
-    },
     "MeetupAPI.Identity.Domain/1.0.0": {
       "type": "project",
       "path": "../MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj",
@@ -2608,7 +2590,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MeetupAPI.Identity.Application >= 1.0.0",
+      "MeetupAPI.Identity.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
@@ -2621,11 +2603,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
+      "projectUniqueName": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
       "projectName": "MeetupAPI.Identity.Persistence",
-      "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
+      "projectPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/MeetupAPI.Identity.Persistence.csproj",
       "packagesPath": "/Users/nikminer4sv/.nuget/packages/",
-      "outputPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/obj/",
+      "outputPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nikminer4sv/.nuget/NuGet/NuGet.Config"
@@ -2640,8 +2622,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj": {
-              "projectPath": "/Users/nikminer4sv/RiderProjects2/MeetupAPI.Identity/MeetupAPI.Identity.Application/MeetupAPI.Identity.Application.csproj"
+            "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj": {
+              "projectPath": "/Users/nikminer4sv/Desktop/Temp/meetup-api/MeetupAPI.Identity/MeetupAPI.Identity.Domain/MeetupAPI.Identity.Domain.csproj"
             }
           }
         }

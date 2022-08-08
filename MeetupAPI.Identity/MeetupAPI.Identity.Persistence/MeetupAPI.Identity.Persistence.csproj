@@ -14,7 +14,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MeetupAPI.Identity.Application\MeetupAPI.Identity.Application.csproj" />
+      <ProjectReference Include="..\MeetupAPI.Identity.Domain\MeetupAPI.Identity.Domain.csproj" />
     </ItemGroup>
-
 </Project>

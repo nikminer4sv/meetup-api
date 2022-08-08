@@ -69,7 +69,6 @@ builder.Services.AddAuthentication(config =>
 }).AddJwtBearer("Bearer", options =>
 {
     options.SaveToken = true;
-    options.Authority = "https://localhost:7206/";
     options.Audience = "MeetupWebAPI";
     options.RequireHttpsMetadata = false;
     options.TokenValidationParameters = new TokenValidationParameters()

@@ -1,13 +1,15 @@
 version: "3.9"
 services:
   identity:
-      image: auth
+      image: identity
+      container_name: auth
       build:
         context: .
-        dockerfile: ./Dockerfile
+        dockerfile: ./Dockerfile-auth
       ports:
         - "7091:7091"
         - "8000:8000"
+      hostname: 'auth'
       environment:
         - ASPNETCORE_ENVIRONMENT=Development
         - ASPNETCORE_URLS=https://+:7091;http://+:8000
@@ -17,3 +19,4 @@ services:
       volumes:
         - ~/.vsdbg:/remote_debugger:rw
         - ~/.aspnet/https:/https:ro
+      network_mode: bridge
