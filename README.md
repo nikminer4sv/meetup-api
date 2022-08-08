@@ -5,3 +5,5 @@ Open folder containing docker-compose.yml file and execute following commands:
 - docker compose up
 
 (you need to execute this commands both for MeetupAPI and MeetupAPI.Identity)
+
+https://streamable.com/fx992q
